@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- SpinSunny mark: a sun with eight rays, SPLIT down the middle — the left
+       half sun-yellow, the right half orange — with a cream hub where the two
+       meet and a crosshair through it. A sun and a roulette wheel at once,
+       which is the name.
+
+       Every stroke is the page's teal ink, because that is the one line the
+       whole design is drawn in.
+
+       The first <rect fill> is what app/apple-icon.tsx reads as the 180x180
+       background plate — the mint sky of this site's hero, so iOS composites
+       the mark onto its own ground rather than onto black. The rect is drawn
+       OUTSIDE the mark's own 48x48 geometry (it is the full viewBox), so at
+       favicon size the sun still reads edge to edge.
+       src/app/favicon.ico is the same artwork rasterised at 16/32/48 — see
+       scripts/make-favicon.py. -->
+  <rect width="48" height="48" rx="11" fill="#cfede7"/>
+  <g stroke="#0f3b3a" stroke-width="2.5" stroke-linecap="round">
+    <path d="M24 3v6M24 39v6M3 24h6M39 24h6M9.2 9.2l4.2 4.2M34.6 34.6l4.2 4.2M9.2 38.8l4.2-4.2M34.6 13.4l4.2-4.2"/>
+  </g>
+  <circle cx="24" cy="24" r="12" fill="#ffc93c" stroke="#0f3b3a" stroke-width="2.5"/>
+  <path d="M24 12a12 12 0 010 24" fill="#ff7a1a" stroke="#0f3b3a" stroke-width="2.5"/>
+  <path d="M24 12v24M12 24h24" stroke="#0f3b3a" stroke-width="2"/>
+  <circle cx="24" cy="24" r="3.5" fill="#fffbf2" stroke="#0f3b3a" stroke-width="2"/>
+</svg>
